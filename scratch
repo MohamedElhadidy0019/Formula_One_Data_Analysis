@@ -1,0 +1,18 @@
+Does a team being the manufacturer of their engine affect performance?
+	- [x] Need to collect data for a subset of years and teams.
+        Collected the data from the sources pointed to by `extra-data-sources.txt`.
+    - [ ] Need to preprocess the data to play well with our existing data.
+        Needed to change some team names to match the current dataset.
+        Hass -> Haas F1 Team
+        Manor -> Manor Marussia
+        Alpha Tauri -> AlphaTauri
+        Red bull -> Red Bull
+
+        Then I replaced the team name by the constructor Id.
+	- [ ] Average performance per team (5 years is too much since the data I collected is only 2010-2020).
+
+Home vs away's effect on performance. (Does having a race in your country affect performance?)
+	Find a relation between the nationality of the driver and his performance in races that take place in his homeland(ex:: Lewis Hamilton performance in Silverstone track)
+	Find a relation between the performance of the constructor and the race they compete in (ex: Ferrari’s performance in Monza)
+
+[Inferential] Given that Mercedes drivers have above average top speed, does this apply to all German teams?
