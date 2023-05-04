@@ -1,15 +1,51 @@
-Does a team being the manufacturer of their engine affect performance?
-	- [x] Need to collect data for a subset of years and teams.
-        Collected the data from the sources pointed to by `extra-data-sources.txt`.
-    - [ ] Need to preprocess the data to play well with our existing data.
-        Needed to change some team names to match the current dataset.
-        Hass -> Haas F1 Team
-        Manor -> Manor Marussia
-        Alpha Tauri -> AlphaTauri
-        Red bull -> Red Bull
+## Does a team being the manufacturer of their engine affect performance?
+- [x] Need to collect data for a subset of years and teams.
+    Collected the data from the sources pointed to by `extra-data-sources.txt`.
 
-        Then I replaced the team name by the constructor Id.
-	- [ ] Average performance per team (5 years is too much since the data I collected is only 2010-2020).
+- [x] Need to preprocess the data to play well with our existing data.
+    Needed to change some team names to match the current dataset.
+
+    ```
+    Hass        -> Haas F1 Team
+    Manor       -> Manor Marussia
+    Alpha Tauri -> AlphaTauri
+    Red bull    -> Red Bull
+    ```
+
+    Then I replaced the team name by the constructor Id.
+
+- [x] Some teams changed their neames between 2010-2020
+    ```
+    Force India -> Racing Point,
+    Toro Rosso  -> AlphaTauri,
+    Sauber      -> Alfa Romeo,
+    Lotus       -> Renault,
+    Marussia    -> Manor Marussia
+    ```
+
+- [x] Average performance per team (5 years is too much since the data I collected is only 2010-2020).
+    This can be computed from the `constructor_standings` table which contains the points accumulated by each constructor for each race.
+
+    We'll have to perform a bunch of joins to get constructor results and names from 2010-2022.
+
+    "Performance" here is quite ambiguous. Is is the final driver position? The
+    number of points?  
+    After a bit of inspection, `construction_standings` contains two things: the points accumulated until a specific race, and the accumulated wins. 
+
+    Assume a team as the following results:
+    ```
+    race_id| points
+    1      | 15
+    2      | 6
+    3      | 7
+    ```
+    They'll have the following standings:
+    ```
+    1      | 15
+    2      | 21
+    3      | 28
+    ```
+
 
 Home vs away's effect on performance. (Does having a race in your country affect performance?)
 	Find a relation between the nationality of the driver and his performance in races that take place in his homeland(ex:: Lewis Hamilton performance in Silverstone track)
