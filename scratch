@@ -47,8 +47,27 @@
     ```
 
 
-Home vs away's effect on performance. (Does having a race in your country affect performance?)
-	Find a relation between the nationality of the driver and his performance in races that take place in his homeland(ex:: Lewis Hamilton performance in Silverstone track)
-	Find a relation between the performance of the constructor and the race they compete in (ex: Ferrari’s performance in Monza)
+## Home vs away's effect on performance. (Does having a race in your country affect performance?)
+
+- [x] find a way to map nationalities to countries.
+- [ ] Find a relation between the nationality of the driver and his performance in races that take place in his homeland(ex: Lewis Hamilton performance in Silverstone track)
+  Let's start by focusing on one driver and trying to generalize the steps we took to all drivers.
+
+  We can start at `driver_standings`, which connects races and drivers.
+- [ ] Find a relation between the performance of the constructor and the race they compete in (ex: Ferrari’s performance in Monza)
 
 [Inferential] Given that Mercedes drivers have above average top speed, does this apply to all German teams?
+
+
+## Data Science Main Cycle
+1. Stating and refining the question
+2. Exploratory data analysis
+3. Building models (ML or statistical)
+4. Result interpretation.
+5. Communicating results.
+
+## Epicycle
+Can be visited for each step in the main cycle.
+1. Setting expectations.
+2. Collecting data, questions, or results.
+3. Matching epectations and data.
