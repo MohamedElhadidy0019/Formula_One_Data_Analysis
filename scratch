@@ -50,12 +50,20 @@
 
 ## Home vs away's effect on performance. (Does having a race in your country affect performance?)
 
-- [x] find a way to map nationalities to countries.
-- [ ] Find a relation between the nationality of the driver and his performance in races that take place in his homeland(ex: Lewis Hamilton performance in Silverstone track)
-  Let's start by focusing on one driver and trying to generalize the steps we took to all drivers.
+### Per driver
+- [x] Find a way to map nationalities to countries.
+- [x] Add a column to signify whether a race result was at the driver's home country or not.
+- [x] Group by the driver id and whether at home or not, compute the mean over all the driver's races for home country races and other races separately.
+  If a certain driver had 3 results [3, 5, 7] at home and another 3 outside [12, 2, 5]. You'd have a home mean of 5, and an outside mean of [19/3].
+- [x] Remove rows with very low scores (1's and 0's are very very common), some drivers now might not have both a home and away mean, remove those too.
+- [x] After plotting the data and seeing some of its statistics. It seems like the data has a lot of high and low outliers, filter them through IQR.
+- [x] After this, we compute the mean points over all drivers for home and away races, we also plot a histogram.
+The mean points seem quite close, and the histograms seem to overlap quite a
+bit. From this, we can deduce that having a race in your country does not affect
+the score much.
+- [ ] Hypothesis testing?
 
-  We can start at `driver_standings`, which connects races and drivers.
-- [ ] Find a relation between the performance of the constructor and the race they compete in (ex: Ferrari’s performance in Monza)
+For constructors, the steps are about the same.
 
 ## [Inferential] Given that Mercedes drivers have above average top speed, does this apply to all German teams?
 - [ ] Get a list of all german teams.
