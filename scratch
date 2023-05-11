@@ -1,8 +1,10 @@
-## Does a team being the manufacturer of their engine affect performance?
+## [Exploratory] Does a team being the manufacturer of their engine affect performance?
 - [x] Need to collect data for a subset of years and teams.
+
     Collected the data from the sources pointed to by `extra-data-sources.txt`.
 
 - [x] Need to preprocess the data to play well with our existing data.
+
     Needed to change some team names to match the current dataset.
 
     ```
@@ -24,6 +26,7 @@
     ```
 
 - [x] Average performance per team (5 years is too much since the data I collected is only 2010-2020).
+
     This can be computed from the `constructor_standings` table which contains the points accumulated by each constructor for each race.
 
     We'll have to perform a bunch of joins to get constructor results and names from 2010-2022.
@@ -46,27 +49,39 @@
     3      | 28
     ```
 - [x] Logistic Regression (make their own engine vs points / wins)
+- [ ] Statistical test
+
+    Null hypothesis: the performance (points/wins) is independent of whether a team makes their own engine or not.
 
 
-## Home vs away's effect on performance. (Does having a race in your country affect performance?)
+## [Exploratory] Home vs away's effect on performance. (Does having a race in your country affect performance?)
 
 ### Per driver
 - [x] Find a way to map nationalities to countries.
 - [x] Add a column to signify whether a race result was at the driver's home country or not.
 - [x] Group by the driver id and whether at home or not, compute the mean over all the driver's races for home country races and other races separately.
+
   If a certain driver had 3 results [3, 5, 7] at home and another 3 outside [12, 2, 5]. You'd have a home mean of 5, and an outside mean of [19/3].
+
 - [x] Remove rows with very low scores (1's and 0's are very very common), some drivers now might not have both a home and away mean, remove those too.
 - [x] After plotting the data and seeing some of its statistics. It seems like the data has a lot of high and low outliers, filter them through IQR.
 - [x] After this, we compute the mean points over all drivers for home and away races, we also plot a histogram.
-The mean points seem quite close, and the histograms seem to overlap quite a
-bit. From this, we can deduce that having a race in your country does not affect
-the score much.
+
+    The mean points seem quite close, and the histograms seem to overlap quite a
+    bit. From this, we can deduce that having a race in your country does not affect
+    the score much.
+
 - [ ] Hypothesis testing?
 
+    Null hypothesis: the performance (points) is independent of whether a driver races in their own country or not.
+
+### Per constructor
 For constructors, the steps are about the same.
 
 ## [Inferential] Given that Mercedes drivers have above average top speed, does this apply to all German teams?
-- [ ] Get a list of all german teams.
+
+- [ ] Statstical test
+    Null hypothesis: The top speed for german teams is no different than the mean.
 
 
 ## Data Science Main Cycle
@@ -81,3 +96,5 @@ Can be visited for each step in the main cycle.
 1. Setting expectations.
 2. Collecting data, questions, or results.
 3. Matching epectations and data.
+
+Can use a t-test or chi squared test?
