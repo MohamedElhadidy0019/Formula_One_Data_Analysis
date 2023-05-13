@@ -1,8 +1,10 @@
-## Does a team being the manufacturer of their engine affect performance?
+## [Exploratory] Does a team being the manufacturer of their engine affect performance?
 - [x] Need to collect data for a subset of years and teams.
+
     Collected the data from the sources pointed to by `extra-data-sources.txt`.
 
 - [x] Need to preprocess the data to play well with our existing data.
+
     Needed to change some team names to match the current dataset.
 
     ```
@@ -24,6 +26,7 @@
     ```
 
 - [x] Average performance per team (5 years is too much since the data I collected is only 2010-2020).
+
     This can be computed from the `constructor_standings` table which contains the points accumulated by each constructor for each race.
 
     We'll have to perform a bunch of joins to get constructor results and names from 2010-2022.
@@ -46,9 +49,68 @@
     3      | 28
     ```
 
+    The same applies for wins, must group by the year and constructor, then subtract each row from the one before it.
+- [x] Logistic Regression (make their own engine vs points / wins)
+- [x] Statistical test
+    Null hypothesis: the performance (points/wins) is independent of whether a team makes their own engine or not.
+    T-test: points/wins of teams that manufacture their own engines vs mean of all teams.
 
-Home vs away's effect on performance. (Does having a race in your country affect performance?)
-	Find a relation between the nationality of the driver and his performance in races that take place in his homeland(ex:: Lewis Hamilton performance in Silverstone track)
-	Find a relation between the performance of the constructor and the race they compete in (ex: Ferrari’s performance in Monza)
 
-[Inferential] Given that Mercedes drivers have above average top speed, does this apply to all German teams?
+## [Exploratory] Home vs away's effect on performance. (Does having a race in your country affect performance?)
+
+### Per driver
+- [x] Find a way to map nationalities to countries.
+    Done by using a demonym(nationality)-country conversion table.
+
+    Some rows in the data had 'American-Italian' or 'East German' as the nationality, these were converted to 'Italian' and 'German'. The decision to convert 'American-Italian' to 'Italian' was done by checking the F1 activity of the two drivers with this nationality manually. They only competed with Italian teams.
+- [x] Add a column to signify whether a race result was at the driver's home country or not.
+    Only a small fraction of the results were at countries other than home.
+- [x] Group by the driver id and whether at home or not, compute the mean over all the driver's races for home country races and other races separately.
+
+  If a certain driver had 3 results [3, 5, 7] at home and another 3 outside [12, 2, 5]. You'd have a home mean of 5, and an outside mean of [19/3].
+
+  Note that 'driver_standings' contains the accumulated points for each driver, to get the scores of each race, you'll need to group by the driver id and year, then diff each row from the one before it.
+  NaNs are to be replaced by zeros.
+
+- [x] Remove rows with very low scores (0's are very very common), some drivers now might not have both a home and away mean, remove those too.
+- [x] After plotting the data and seeing some of its statistics. It seems like the data has some high and low outliers, filter them through IQR.
+- [x] After this, we compute the mean points over all drivers for home and away races, we also plot a histogram.
+
+    The mean points seem quite close, and the histograms seem to overlap a bit.
+    Although the home hsitogram leans a bit to higher scores. This could mean
+    that having a race in your country has a positive effect on your score.
+
+- [x] Hypothesis testing?
+    Null hypothesis: the performance (points) is independent of whether a driver races in their own country or not.
+    T-test: 
+      - points of drivers at home vs mean points of all drivers
+      - wins of constructors at home vs wins of all constructors
+
+### Per constructor
+For constructors, the steps are about the same.
+
+## [Inferential] Given that Mercedes drivers have above average top speed, does this apply to all German teams?
+- [x] Group the top speed (fastestLapSpeed) by constructor, compute the mean for each constructor.
+    Not all constructors have fastestLapSpeed values. Looking at the API where this data came from, it says that fastest lap times are included from 2004 onwards. I assume that fastest lap speeds have the same restriction.
+- [x] Plot a bar chart displaying the means fastest lap speed over all races of a constructor and the mean over all constructors.
+- [x] Filter out german teams, do the same.
+    Funnily enough, the only German constructors are Mercedes and BMW Sauber. They both surpass the mean lap speeds.
+- [x] Statstical test
+    Null hypothesis: The top speed for german teams is no different than the mean.
+    P < alpha => null hypothesis rejected. We now have confirmation to say that german teams do have above average top speeds.
+
+
+## Data Science Main Cycle
+1. Stating and refining the question
+2. Exploratory data analysis
+3. Building models (ML or statistical)
+4. Result interpretation.
+5. Communicating results.
+
+## Epicycle
+Can be visited for each step in the main cycle.
+1. Setting expectations.
+2. Collecting data, questions, or results.
+3. Matching epectations and data.
+
+Can use a t-test or chi squared test?
