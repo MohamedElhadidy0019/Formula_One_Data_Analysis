@@ -1,52 +1,52 @@
 We have the following dataframes (run `head -n +1 dataset/*.csv` to regenerate this)
 
-==> dataset/circuits.csv <==
+dataset/circuits.csv
 circuitId,circuitRef,name,location,country,lat,lng,alt,url
 
-==> dataset/constructor_results.csv <==
+dataset/constructor_results.csv
 constructorResultsId,raceId,constructorId,points,status
 
-==> dataset/constructors.csv <==
+dataset/constructors.csv
 constructorId,constructorRef,name,nationality,url
 
-==> dataset/constructor_standings.csv <==
+dataset/constructor_standings.csv
 constructorStandingsId,raceId,constructorId,points,position,positionText,wins
 
-==> dataset/demonyms.csv <==
+dataset/demonyms.csv
 nationality,country
 
-==> dataset/drivers.csv <==
+dataset/drivers.csv
 driverId,driverRef,number,code,forename,surname,dob,nationality,url
 
-==> dataset/driver_standings.csv <==
+dataset/driver_standings.csv
 driverStandingsId,raceId,driverId,points,position,positionText,wins
 
-==> dataset/engine_manufacturers.csv <==
+dataset/engine_manufacturers.csv
 year,team_name,engine_manufacturer
 
-==> dataset/engine_manufacturers_processed.csv <==
+dataset/engine_manufacturers_processed.csv
 ,year,engine_manufacturer,constructorId
 
-==> dataset/lap_times.csv <==
+dataset/lap_times.csv
 raceId,driverId,lap,position,time,milliseconds
 
-==> dataset/pit_stops.csv <==
+dataset/pit_stops.csv
 raceId,driverId,stop,lap,time,duration,milliseconds
 
-==> dataset/qualifying.csv <==
+dataset/qualifying.csv
 qualifyId,raceId,driverId,constructorId,number,position,q1,q2,q3
 
-==> dataset/races.csv <==
+dataset/races.csv
 raceId,year,round,circuitId,name,date,time,url,fp1_date,fp1_time,fp2_date,fp2_time,fp3_date,fp3_time,quali_date,quali_time,sprint_date,sprint_time
 
-==> dataset/results.csv <==
+dataset/results.csv
 resultId,raceId,driverId,constructorId,number,grid,position,positionText,positionOrder,points,laps,time,milliseconds,fastestLap,rank,fastestLapTime,fastestLapSpeed,statusId
 
-==> dataset/seasons.csv <==
+dataset/seasons.csv
 year,url
 
-==> dataset/sprint_results.csv <==
+dataset/sprint_results.csv
 resultId,raceId,driverId,constructorId,number,grid,position,positionText,positionOrder,points,laps,time,milliseconds,fastestLap,fastestLapTime,statusId
 
-==> dataset/status.csv <==
+dataset/status.csv
 statusId,status
