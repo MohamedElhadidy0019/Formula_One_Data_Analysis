@@ -1,0 +1,240 @@
+raceId,name,year,forename,surname,stop
+841,Australian Grand Prix,2011,Sebastian,Vettel,2
+842,Malaysian Grand Prix,2011,Sebastian,Vettel,3
+843,Chinese Grand Prix,2011,Lewis,Hamilton,3
+844,Turkish Grand Prix,2011,Sebastian,Vettel,4
+845,Spanish Grand Prix,2011,Sebastian,Vettel,4
+846,Monaco Grand Prix,2011,Sebastian,Vettel,1
+847,Canadian Grand Prix,2011,Jenson,Button,6
+848,European Grand Prix,2011,Sebastian,Vettel,3
+849,British Grand Prix,2011,Fernando,Alonso,3
+850,German Grand Prix,2011,Lewis,Hamilton,3
+851,Hungarian Grand Prix,2011,Jenson,Button,3
+852,Belgian Grand Prix,2011,Sebastian,Vettel,3
+853,Italian Grand Prix,2011,Sebastian,Vettel,2
+854,Singapore Grand Prix,2011,Sebastian,Vettel,3
+855,Japanese Grand Prix,2011,Jenson,Button,3
+856,Korean Grand Prix,2011,Sebastian,Vettel,2
+857,Indian Grand Prix,2011,Sebastian,Vettel,2
+858,Abu Dhabi Grand Prix,2011,Lewis,Hamilton,2
+859,Brazilian Grand Prix,2011,Mark,Webber,3
+860,Australian Grand Prix,2012,Jenson,Button,2
+861,Malaysian Grand Prix,2012,Fernando,Alonso,3
+862,Chinese Grand Prix,2012,Nico,Rosberg,2
+863,Bahrain Grand Prix,2012,Sebastian,Vettel,3
+864,Spanish Grand Prix,2012,Pastor,Maldonado,3
+865,Monaco Grand Prix,2012,Mark,Webber,1
+866,Canadian Grand Prix,2012,Lewis,Hamilton,2
+867,European Grand Prix,2012,Fernando,Alonso,2
+868,British Grand Prix,2012,Mark,Webber,2
+869,German Grand Prix,2012,Fernando,Alonso,2
+870,Hungarian Grand Prix,2012,Lewis,Hamilton,2
+871,Belgian Grand Prix,2012,Jenson,Button,1
+872,Italian Grand Prix,2012,Lewis,Hamilton,1
+873,Singapore Grand Prix,2012,Sebastian,Vettel,2
+874,Japanese Grand Prix,2012,Sebastian,Vettel,2
+875,Korean Grand Prix,2012,Sebastian,Vettel,2
+876,Indian Grand Prix,2012,Sebastian,Vettel,1
+877,Abu Dhabi Grand Prix,2012,Kimi,Räikkönen,1
+878,United States Grand Prix,2012,Lewis,Hamilton,1
+879,Brazilian Grand Prix,2012,Jenson,Button,2
+880,Australian Grand Prix,2013,Kimi,Räikkönen,2
+881,Malaysian Grand Prix,2013,Sebastian,Vettel,4
+882,Chinese Grand Prix,2013,Fernando,Alonso,3
+883,Bahrain Grand Prix,2013,Sebastian,Vettel,3
+884,Spanish Grand Prix,2013,Fernando,Alonso,4
+885,Monaco Grand Prix,2013,Nico,Rosberg,1
+886,Canadian Grand Prix,2013,Sebastian,Vettel,2
+887,British Grand Prix,2013,Nico,Rosberg,3
+888,German Grand Prix,2013,Sebastian,Vettel,3
+890,Hungarian Grand Prix,2013,Lewis,Hamilton,3
+891,Belgian Grand Prix,2013,Sebastian,Vettel,2
+892,Italian Grand Prix,2013,Sebastian,Vettel,1
+893,Singapore Grand Prix,2013,Sebastian,Vettel,2
+894,Korean Grand Prix,2013,Sebastian,Vettel,2
+895,Japanese Grand Prix,2013,Sebastian,Vettel,2
+896,Indian Grand Prix,2013,Sebastian,Vettel,2
+897,Abu Dhabi Grand Prix,2013,Sebastian,Vettel,2
+898,United States Grand Prix,2013,Sebastian,Vettel,1
+899,Brazilian Grand Prix,2013,Sebastian,Vettel,2
+900,Australian Grand Prix,2014,Nico,Rosberg,2
+901,Malaysian Grand Prix,2014,Lewis,Hamilton,3
+902,Bahrain Grand Prix,2014,Lewis,Hamilton,2
+903,Chinese Grand Prix,2014,Lewis,Hamilton,2
+904,Spanish Grand Prix,2014,Lewis,Hamilton,2
+905,Monaco Grand Prix,2014,Nico,Rosberg,1
+906,Canadian Grand Prix,2014,Daniel,Ricciardo,2
+907,Austrian Grand Prix,2014,Nico,Rosberg,2
+908,British Grand Prix,2014,Lewis,Hamilton,2
+909,German Grand Prix,2014,Nico,Rosberg,2
+910,Hungarian Grand Prix,2014,Daniel,Ricciardo,3
+911,Belgian Grand Prix,2014,Daniel,Ricciardo,2
+912,Italian Grand Prix,2014,Lewis,Hamilton,1
+913,Singapore Grand Prix,2014,Lewis,Hamilton,3
+914,Japanese Grand Prix,2014,Lewis,Hamilton,3
+915,Russian Grand Prix,2014,Lewis,Hamilton,1
+916,United States Grand Prix,2014,Lewis,Hamilton,2
+917,Brazilian Grand Prix,2014,Nico,Rosberg,3
+918,Abu Dhabi Grand Prix,2014,Lewis,Hamilton,2
+926,Australian Grand Prix,2015,Lewis,Hamilton,1
+927,Malaysian Grand Prix,2015,Sebastian,Vettel,2
+928,Chinese Grand Prix,2015,Lewis,Hamilton,2
+929,Bahrain Grand Prix,2015,Lewis,Hamilton,2
+930,Spanish Grand Prix,2015,Nico,Rosberg,2
+931,Monaco Grand Prix,2015,Nico,Rosberg,1
+932,Canadian Grand Prix,2015,Lewis,Hamilton,1
+933,Austrian Grand Prix,2015,Nico,Rosberg,1
+934,British Grand Prix,2015,Lewis,Hamilton,2
+936,Hungarian Grand Prix,2015,Sebastian,Vettel,4
+937,Belgian Grand Prix,2015,Lewis,Hamilton,2
+938,Italian Grand Prix,2015,Lewis,Hamilton,1
+939,Singapore Grand Prix,2015,Sebastian,Vettel,2
+940,Japanese Grand Prix,2015,Lewis,Hamilton,2
+941,Russian Grand Prix,2015,Lewis,Hamilton,1
+942,United States Grand Prix,2015,Lewis,Hamilton,2
+943,Mexican Grand Prix,2015,Nico,Rosberg,2
+944,Brazilian Grand Prix,2015,Nico,Rosberg,3
+945,Abu Dhabi Grand Prix,2015,Nico,Rosberg,2
+948,Australian Grand Prix,2016,Nico,Rosberg,2
+949,Bahrain Grand Prix,2016,Nico,Rosberg,3
+950,Chinese Grand Prix,2016,Nico,Rosberg,2
+951,Russian Grand Prix,2016,Nico,Rosberg,1
+952,Spanish Grand Prix,2016,Max,Verstappen,2
+953,Monaco Grand Prix,2016,Lewis,Hamilton,1
+954,Canadian Grand Prix,2016,Lewis,Hamilton,1
+955,European Grand Prix,2016,Nico,Rosberg,1
+956,Austrian Grand Prix,2016,Lewis,Hamilton,4
+957,British Grand Prix,2016,Lewis,Hamilton,2
+958,Hungarian Grand Prix,2016,Lewis,Hamilton,2
+959,German Grand Prix,2016,Lewis,Hamilton,3
+960,Belgian Grand Prix,2016,Nico,Rosberg,2
+961,Italian Grand Prix,2016,Nico,Rosberg,1
+962,Singapore Grand Prix,2016,Nico,Rosberg,3
+963,Malaysian Grand Prix,2016,Daniel,Ricciardo,2
+964,Japanese Grand Prix,2016,Nico,Rosberg,2
+965,United States Grand Prix,2016,Lewis,Hamilton,2
+966,Mexican Grand Prix,2016,Lewis,Hamilton,1
+967,Brazilian Grand Prix,2016,Lewis,Hamilton,2
+968,Abu Dhabi Grand Prix,2016,Lewis,Hamilton,2
+969,Australian Grand Prix,2017,Sebastian,Vettel,1
+970,Chinese Grand Prix,2017,Lewis,Hamilton,4
+971,Bahrain Grand Prix,2017,Sebastian,Vettel,2
+972,Russian Grand Prix,2017,Valtteri,Bottas,1
+973,Spanish Grand Prix,2017,Lewis,Hamilton,2
+974,Monaco Grand Prix,2017,Sebastian,Vettel,1
+975,Canadian Grand Prix,2017,Lewis,Hamilton,1
+976,Azerbaijan Grand Prix,2017,Daniel,Ricciardo,4
+977,Austrian Grand Prix,2017,Valtteri,Bottas,1
+978,British Grand Prix,2017,Lewis,Hamilton,1
+979,Hungarian Grand Prix,2017,Sebastian,Vettel,1
+980,Belgian Grand Prix,2017,Lewis,Hamilton,2
+981,Italian Grand Prix,2017,Lewis,Hamilton,1
+982,Singapore Grand Prix,2017,Lewis,Hamilton,4
+983,Malaysian Grand Prix,2017,Max,Verstappen,1
+984,Japanese Grand Prix,2017,Lewis,Hamilton,1
+985,United States Grand Prix,2017,Lewis,Hamilton,1
+986,Mexican Grand Prix,2017,Max,Verstappen,1
+987,Brazilian Grand Prix,2017,Sebastian,Vettel,4
+988,Abu Dhabi Grand Prix,2017,Valtteri,Bottas,1
+989,Australian Grand Prix,2018,Sebastian,Vettel,1
+990,Bahrain Grand Prix,2018,Sebastian,Vettel,1
+991,Chinese Grand Prix,2018,Daniel,Ricciardo,2
+992,Azerbaijan Grand Prix,2018,Lewis,Hamilton,2
+993,Spanish Grand Prix,2018,Lewis,Hamilton,1
+994,Monaco Grand Prix,2018,Daniel,Ricciardo,1
+995,Canadian Grand Prix,2018,Sebastian,Vettel,1
+996,French Grand Prix,2018,Lewis,Hamilton,1
+997,Austrian Grand Prix,2018,Max,Verstappen,1
+998,British Grand Prix,2018,Sebastian,Vettel,2
+999,German Grand Prix,2018,Lewis,Hamilton,1
+1000,Hungarian Grand Prix,2018,Lewis,Hamilton,1
+1001,Belgian Grand Prix,2018,Sebastian,Vettel,2
+1002,Italian Grand Prix,2018,Lewis,Hamilton,1
+1003,Singapore Grand Prix,2018,Lewis,Hamilton,1
+1004,Russian Grand Prix,2018,Lewis,Hamilton,1
+1005,Japanese Grand Prix,2018,Lewis,Hamilton,1
+1006,United States Grand Prix,2018,Kimi,Räikkönen,1
+1007,Mexican Grand Prix,2018,Max,Verstappen,2
+1008,Brazilian Grand Prix,2018,Lewis,Hamilton,1
+1009,Abu Dhabi Grand Prix,2018,Lewis,Hamilton,1
+1010,Australian Grand Prix,2019,Valtteri,Bottas,1
+1011,Bahrain Grand Prix,2019,Lewis,Hamilton,2
+1012,Chinese Grand Prix,2019,Lewis,Hamilton,2
+1013,Azerbaijan Grand Prix,2019,Valtteri,Bottas,1
+1014,Spanish Grand Prix,2019,Lewis,Hamilton,2
+1015,Monaco Grand Prix,2019,Lewis,Hamilton,1
+1016,Canadian Grand Prix,2019,Lewis,Hamilton,1
+1017,French Grand Prix,2019,Lewis,Hamilton,1
+1018,Austrian Grand Prix,2019,Max,Verstappen,1
+1019,British Grand Prix,2019,Lewis,Hamilton,1
+1020,German Grand Prix,2019,Max,Verstappen,5
+1021,Hungarian Grand Prix,2019,Lewis,Hamilton,2
+1022,Belgian Grand Prix,2019,Charles,Leclerc,1
+1023,Italian Grand Prix,2019,Charles,Leclerc,1
+1024,Singapore Grand Prix,2019,Sebastian,Vettel,1
+1025,Russian Grand Prix,2019,Lewis,Hamilton,1
+1026,Japanese Grand Prix,2019,Valtteri,Bottas,2
+1027,Mexican Grand Prix,2019,Lewis,Hamilton,1
+1028,United States Grand Prix,2019,Valtteri,Bottas,2
+1029,Brazilian Grand Prix,2019,Max,Verstappen,3
+1030,Abu Dhabi Grand Prix,2019,Lewis,Hamilton,1
+1031,Austrian Grand Prix,2020,Valtteri,Bottas,2
+1032,Styrian Grand Prix,2020,Lewis,Hamilton,1
+1033,Hungarian Grand Prix,2020,Lewis,Hamilton,3
+1034,British Grand Prix,2020,Lewis,Hamilton,1
+1035,70th Anniversary Grand Prix,2020,Max,Verstappen,2
+1036,Spanish Grand Prix,2020,Lewis,Hamilton,2
+1037,Belgian Grand Prix,2020,Lewis,Hamilton,1
+1038,Italian Grand Prix,2020,Pierre,Gasly,2
+1039,Tuscan Grand Prix,2020,Lewis,Hamilton,5
+1040,Russian Grand Prix,2020,Valtteri,Bottas,1
+1041,Eifel Grand Prix,2020,Lewis,Hamilton,2
+1042,Portuguese Grand Prix,2020,Lewis,Hamilton,1
+1043,Emilia Romagna Grand Prix,2020,Lewis,Hamilton,2
+1044,Turkish Grand Prix,2020,Lewis,Hamilton,1
+1045,Bahrain Grand Prix,2020,Lewis,Hamilton,3
+1046,Sakhir Grand Prix,2020,Sergio,Pérez,2
+1047,Abu Dhabi Grand Prix,2020,Max,Verstappen,1
+1051,Qatar Grand Prix,2021,Lewis,Hamilton,2
+1052,Bahrain Grand Prix,2021,Lewis,Hamilton,2
+1053,Emilia Romagna Grand Prix,2021,Max,Verstappen,2
+1054,Portuguese Grand Prix,2021,Lewis,Hamilton,3
+1055,Spanish Grand Prix,2021,Lewis,Hamilton,2
+1056,Monaco Grand Prix,2021,Max,Verstappen,1
+1057,Azerbaijan Grand Prix,2021,Sergio,Pérez,3
+1058,Styrian Grand Prix,2021,Max,Verstappen,1
+1059,French Grand Prix,2021,Max,Verstappen,2
+1060,Austrian Grand Prix,2021,Max,Verstappen,2
+1061,British Grand Prix,2021,Lewis,Hamilton,2
+1062,Hungarian Grand Prix,2021,Esteban,Ocon,3
+1064,Dutch Grand Prix,2021,Max,Verstappen,2
+1065,Italian Grand Prix,2021,Daniel,Ricciardo,1
+1066,Russian Grand Prix,2021,Lewis,Hamilton,2
+1067,Turkish Grand Prix,2021,Valtteri,Bottas,1
+1069,United States Grand Prix,2021,Max,Verstappen,2
+1070,Mexico City Grand Prix,2021,Max,Verstappen,1
+1071,São Paulo Grand Prix,2021,Lewis,Hamilton,4
+1072,Saudi Arabian Grand Prix,2021,Lewis,Hamilton,3
+1073,Abu Dhabi Grand Prix,2021,Max,Verstappen,3
+1074,Bahrain Grand Prix,2022,Charles,Leclerc,3
+1075,Saudi Arabian Grand Prix,2022,Max,Verstappen,1
+1076,Australian Grand Prix,2022,Charles,Leclerc,1
+1077,Emilia Romagna Grand Prix,2022,Max,Verstappen,2
+1078,Miami Grand Prix,2022,Max,Verstappen,1
+1079,Spanish Grand Prix,2022,Max,Verstappen,3
+1080,Monaco Grand Prix,2022,Sergio,Pérez,3
+1081,Azerbaijan Grand Prix,2022,Max,Verstappen,2
+1082,Canadian Grand Prix,2022,Max,Verstappen,2
+1083,British Grand Prix,2022,Carlos,Sainz,3
+1084,Austrian Grand Prix,2022,Charles,Leclerc,3
+1085,French Grand Prix,2022,Max,Verstappen,1
+1086,Hungarian Grand Prix,2022,Max,Verstappen,2
+1087,Belgian Grand Prix,2022,Max,Verstappen,2
+1088,Dutch Grand Prix,2022,Max,Verstappen,4
+1089,Italian Grand Prix,2022,Max,Verstappen,2
+1091,Singapore Grand Prix,2022,Sergio,Pérez,1
+1092,Japanese Grand Prix,2022,Max,Verstappen,2
+1093,United States Grand Prix,2022,Max,Verstappen,2
+1094,Mexico City Grand Prix,2022,Max,Verstappen,1
+1095,Brazilian Grand Prix,2022,George,Russell,2
+1096,Abu Dhabi Grand Prix,2022,Max,Verstappen,1
